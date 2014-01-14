@@ -5,7 +5,8 @@ UserVoice for Android allows you to embed UserVoice directly in your Android app
 You can try out UserVoice for Android by installing the [UserVoice Help Center app](http://sdk-downloads.uservoice.com/android/HelpCenter.apk) on your device.
 
 You will need a UserVoice account (free) for it to connect to. Go to [uservoice.com](https://www.uservoice.com/plans/) to sign up.
-
+### Maven Users
+* Simply fork/download this and run "maven clean install" to generate the apklib
 ### Installation for Eclipse
 
 * File -> Import... -> General -> Existing Projects into Workspace
