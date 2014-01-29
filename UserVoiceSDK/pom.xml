@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.uservoice.android</groupId>
     <artifactId>uservoice-sdk-android</artifactId>
-    <version>uv-79f479e</version>
+    <version>uv-baa5d861a5272a71c145e91d987918d42ffbd74b</version>
     <packaging>apklib</packaging>
 
     <properties>
