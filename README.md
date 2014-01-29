@@ -6,7 +6,23 @@ You can try out UserVoice for Android by installing the [UserVoice Help Center a
 
 You will need a UserVoice account (free) for it to connect to. Go to [uservoice.com](https://www.uservoice.com/plans/) to sign up.
 ### Maven Users
+This repo tracks the main uservoice repo, the versions correspond to revisions from the master branch of that repo.  To track the upstream changes (one of multiple ways):
+```sh
+> git remote add uv git@github.com:uservoice/uservoice-android-sdk.git
+> git fetch uv
+> git merge uv/master
+```
+
+#### Bumping maven versions
+* Use the format uv-{sha1} for the version.  The sha1 shoudl be the current HEAD from the uservoice branch.
+```sh
+> git ls-remote uv HEAD
+```
+
+#### Installing locally
 * Simply fork/download this and run "maven clean install" to generate the apklib
+
+
 ### Installation for Eclipse
 
 * File -> Import... -> General -> Existing Projects into Workspace
